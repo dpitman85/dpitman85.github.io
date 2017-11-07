@@ -2,14 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Welcome! I'm a former music student, recovering lawyer, and self-taught developer-in-training. This blog is where I hope to share my progress as I learn more about web development, and share my experience trying new tools, tutorials, and techniques. I'll also write about legal topics that catch my eye and seem relevant to tech, music, or general web culture. As I grow as a developer, I'll also share some of my projects.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+For more, read my [_Hello, World_ Post](/general/2017/11/07/Hello-World.html).
