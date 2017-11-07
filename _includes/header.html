@@ -2,7 +2,7 @@
   <div class="ui container">
 	  <div class="header item">
     	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-  	
+      </div>	
   		  {% for my_page in site.pages %}
        		{% if my_page.title %}
           		<div class="item">
@@ -10,6 +10,5 @@
     	  		</div>
        		{% endif %}
     	  {% endfor %}
-  		</div>
 	</div>
 </div>
