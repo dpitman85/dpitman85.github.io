@@ -1,14 +1,14 @@
 <footer>
   <div class="ui container">
-    <div class="ui horizontal segments">
-      <div class="ui segment">
+    <div class="ui equal width grid">
+      <div class="column">
         <ul>
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="ui segment">
+      <div class="column">
         <ul>
           {% if site.github_username %}
           <li>
@@ -24,7 +24,7 @@
         </ul>
       </div>
 
-      <div class="ui segment">
+      <div class="column">
         <p>{{ site.description }}</p>
       </div>
     </div>
