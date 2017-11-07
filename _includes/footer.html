@@ -1,27 +1,27 @@
 <footer>
   <div class="ui container">
-    <div class="ui equal width grid">
+    <div class="ui equal width grid segment">
       <div class="column">
-        <ul>
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <div class="ui list">
+          <div class="item">{{ site.title }}</div>
+          <div class="item"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+        </div>
       </div>
 
       <div class="column">
-        <ul>
+        <div class="ui list">
           {% if site.github_username %}
-          <li>
+          <div class="item">
             {% include icon-github.html username=site.github_username %}
-          </li>
+          </div>
           {% endif %}
 
           {% if site.twitter_username %}
-          <li>
+          <div class="item">
             {% include icon-twitter.html username=site.twitter_username %}
-          </li>
+          </div>
           {% endif %}
-        </ul>
+        </div>
       </div>
 
       <div class="column">
