@@ -3,20 +3,8 @@ layout: default
 published: true
 ---
 
-<div class="home">
+<div class="ui container">
 
-  <h1 class="ui header">Posts</h1>
-
-  <div class="ui list">
-    {% for post in site.posts %}
-      <div class="item">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </div>
-    {% endfor %}
-  </div>
-
+  <div class="ui fluid image" src="/images/header.jpg">
+    
 </div>
