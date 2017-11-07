@@ -4,6 +4,7 @@ title: 'Hello, World'
 date: '2017-11-07 12:15:14 +0000'
 categories: general
 published: true
+image: images/DP_Camera.jpg
 ---
 Even though I've been working on learning web development for a while now, it seems appropriate to start this blog like a new project with the customary `Hello, World`.  With that, allow me to introduce myself.
 
