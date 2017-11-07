@@ -2,7 +2,8 @@
   <div class="ui container">
 	  <div class="header item">
     	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </div>	
+      </div>
+	    <a class="item" href="/posts.html">Posts</a>
   		  {% for my_page in site.pages %}
        		{% if my_page.title %}
     		  <a class="item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
