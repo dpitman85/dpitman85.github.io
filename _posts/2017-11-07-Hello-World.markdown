@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Hello, World'
-date: '2017-04-19 01:26:14 +0000'
-categories: jekyll update
+date: '2017-11-07 12:15:14 +0000'
+categories: hello welcome general
 published: true
 ---
 Even though I've been working on learning web development for a while now, it seems appropriate to start this blog like a new project with the customary `Hello, World`.  With that, allow me to introduce myself.
