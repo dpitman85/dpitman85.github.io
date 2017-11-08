@@ -8,20 +8,20 @@
         </div>
       </div>
 
-      <div class="column">
-        <div class="ui list">
+      <div class="ui column">
+        <ul class="social-media-list">
           {% if site.github_username %}
-          <div class="item">
+          <li>
             {% include icon-github.html username=site.github_username %}
-          </div>
+          </li>
           {% endif %}
 
           {% if site.twitter_username %}
-          <div class="item">
+          <li>
             {% include icon-twitter.html username=site.twitter_username %}
-          </div>
+          </li>
           {% endif %}
-        </div>
+        </ul>
       </div>
 
       <div class="column">
