@@ -9,7 +9,7 @@ published: true
     {% for post in site.posts %}
   	<div class="item">
       <div class="image">
-        <img src="/images/wireframe/image.png">
+        <img src="{{ post.image }}">
       </div>
       <div class="content">
         <a class="header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -17,7 +17,7 @@ published: true
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
         <div class="description">
-          <p>{{ post.body.substring(0, 50) }}</p>
+          <p>{{ content.substring(0, 50) }}</p>
         </div>
         <div class="extra">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
