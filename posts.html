@@ -17,7 +17,7 @@ published: true
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
         <div class="description">
-          <p>{{ post.content | slice: 0, 100 }}</p>
+          <p>{{ post.content | truncate: 200 }}</p>
         </div>
         <div class="extra">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
