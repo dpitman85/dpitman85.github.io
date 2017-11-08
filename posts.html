@@ -5,14 +5,24 @@ published: true
 
 <h1 class="ui header">Posts</h1>
 
-  <div class="ui list">
+  <div class="ui items">
     {% for post in site.posts %}
-      <div class="item">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+  	<div class="item">
+      <div class="image">
+        <img src="/images/wireframe/image.png">
       </div>
-    {% endfor %}
+      <div class="content">
+        <a class="header" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="meta">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+        <div class="description">
+          <p>{{ post.body.substring(0, 50) }}</p>
+        </div>
+        <div class="extra">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}    
   </div>
