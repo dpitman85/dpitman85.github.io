@@ -1,0 +1,53 @@
+---
+published: false
+layout: post
+title: Practice vs. Study
+categories: general
+image: >-
+  https://images.unsplash.com/photo-1477238134895-98438ad85c30?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+---
+One of my former roommates just moved a few hours down the road to start a degree in engineering this semester.  He's always like fixing things--our living room used to be full of bicycles or amplifiers or many varieties of other mechanical or electronic devices in assorted phases of assembly--and it seemed like he was never making much use of his first undergrad degree.  (In finance, maybe?)
+
+All of this is to say that as I'm in the process of studying programming, computer science, and a lot of math I didn't pick up studying music, he's starting out on those things as part of his first-year engineering classes.  I've encouraged him to do some online study with me since I've pretty much covered the first year of his engineering degree on my own, and I known he's going to pass me quickly after that if I don't have somebody pushing me along.
+
+In the process of working with him on his structured study schedule, I'm noticing some key differences between my self-directed study and his organized university program that I think are worth exploring.
+
+**What I mean by 'Practice'
+
+Before I get into to, the title says 'Practice vs. Study,' but I want to be clear, I'm not talking about 'practice' as in "I'm going to practice piano to prepare for my recital" but rather "I'm taking this theory I learned in class and putting it into practice."  Practicality, or pragmatism if you prefer, is important to me.  I consider it a core tenet of my personal philosophy--knowledge that has no practical use is possibly fun, but not that important.
+
+**Why does this matter?
+
+That said, most knowledge has a practical use, but poor communication of knowledge can hide that value.  I find this all the time when I talk to musicians who have no formal training.  They dismiss music theory and music notation as pointlessly difficult exercises that don't have real value if you have a good ear.  When I taught freshman theory in grad school, every semester someone would ask "did the composer think about this stuff when they wrote it?"
+
+Quite often the answer is no.  Bach used figured bass like we use in theory class, but he didn't think in terms of Roman numerals.  The rules we use in those classes are always more strict than a composer would have followed, just like how grammar teachers in elementary school will tell you never to start a sentence with a conjunction.  But we know as adults that isn't a hard-and-fast rule, don't we?  I remember an episode of _The Adventures of Pete & Pete_ on Nickelodeon when I was a kid where Ellen caused a mutiny in math class by asking every teacher who came through the door 'Why?'
+
+I felt that confusion when I was a student, then I felt empathy for the teachers when I was a TA.  Teaching somebody the purpose of an abstract concept while you are teaching the concept is difficult.  Sometimes its simply a matter of history:  some people a long time ago found a way that works, and we continue to do it that way because nobody has come up with anything better.  Maybe some teachers work in a field where there's an empirical way to prove that the way they are teaching is the only correct way, but even then, maybe the students aren't advanced enough to understand the proof.  You have to convince them to take it on faith that later they will understand.
+
+**Back to code
+
+So what does this have to do with coding or programming?  What I realized from working with my friend is that (1) he is moving a lot slower in his structured class than I was when I studied alone (partially because I studied one topic at a time, not a full class schedule) and (2) things I take for granted like googling for tips, browsing StackOverflow, and combing through documentation are not as encouraged as I had assumed.
+
+Unlike some other fields, programming has a rich heritage of self-taught practitioners.  The most iconic figures of the field came to prominence at a time when computer science degrees were uncommon or non-existent.  That DIY mentality has survived and even thrived as libraries and frameworks take a lot of the heavy lifting out of making simple projects.  I don't need to deal with assembly language.  I don't even need to know how memory really works to make some pretty powerful web applications in Python.  Give me Flask and a SQLite database, and I can spit out a simple to-do list application in an afternoon.  It'll just take a lot of googling.
+
+That being said, if you take the work seriously you will eventually hit a wall that requires you to learn some of those things.  But that's the difference: structured study doesn't wait for the wall.  It tells you about the wall in advance, knowing it's coming someday.  Having never seen the wall, a student can't appreciate the value of the information she's been given.  Teachers have to instill faith in the student that the information is worth knowing before it becomes worth knowing.
+
+That sounds great.  I am convinced that almost everything you learn in a fundamentals of CS course has practical value in certain situations, just like rules you learn in basic English or freshman music theory are valuable right up until you learn when to discard them.  But how useful is that knowledge if, in the current environment, it will only become valuable years later?  At that point, won't the student have forgotten the idea and need to relearn it anyway?
+
+**Learning to Learn
+
+I remember when I was in tuba lessons in undergrad (yeah, I played tuba).  My professor would often ask me what I thought of something I had just played.  Early on, I was sheepish about it--I always knew it could be better, but I wasn't really sure what he wanted out of me.  Eventually he told me that I would never learn how to be a great tuba player in college.  Nobody does.  Four years (or maybe five or six for some people) is not long enough to become truly great at anything.  The goal in those four years is to learn enough so you can competently teach yourself for the rest of your life.
+
+I don't know if other fields think of school this way.  Law school had a similar idea--schools don't teach you the law, they teach you to think like a lawyer.  The day-to-day practice of being a lawyers is largely made up of research, searching through lots of very dense, boring text to find the piece of information you need to make an argument the case before you.
+
+Knowing this, one might think it is naturally preferable to just teach yourself from the beginning.  For some people who are curious enough and thorough enough by their nature, it probably is.  Speaking for myself, I have a nagging fear when I teach myself that I am missing some vital piece of information that an expert teacher would point me toward.  I have that fear even in the fields I have studied in school.
+
+Programming has a couple big advantages in this respect.  Much of the time, if your program doesn't work correctly, you know it from the start.  Hidden errors plague everybody, and optimization is a chore even for experienced developers (from what I read online).  But the basic operations either work or they don't, and testing those operations is mostly intuitive.  
+
+The bigger advantage is the sheer size and openness of the community.  Few fields have anything like StackOverflow or Github, giant repositories of information and guidance that are largely free of intellectual property restrictions.  Along with these are giant open-source projects, free cloud services and IDEs, and hundreds of online classes and tutorials that teach the same basic concepts dozens of different ways to suit any kind of student.
+
+**Conclusion
+
+All of this is to say that I have had to walk my friend back from some panic moments on some fairly basic concepts because he feels like, in his structured course, he's having to learn a new language from scratch with few resources to guide him.  As a self-taught student of programming, I have never felt that.  If anything, my struggle has been in deciding which of the dozens of viable programming languages, libraries, and frameworks I should learn, and from which courses.
+
+My response to his panic has been to share I find in the community: start with the documentation, then google the problem and look for help on StackOverflow, then if all else fails, ask somebody for help.  As far as I can tell, every professional in every field eventually becomes self-taught.  In programming, I think that moment tends to come earlier as technology forces most people to move on from the languages and tools they learned first.  Rather than wasting time memorizing syntax in a language you may never use again, learn basic concepts, and learn to find the rest when it's useful.  Study, then practice, then study some more.
